@@ -1,0 +1,29 @@
+{
+  "name": "lazy-cli",
+  "version": "0.0.1",
+  "description": "Do something more easily by using CLI util.",
+  "main": "index.js",
+  "bin": {
+    "lazy": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanningHan/personnal-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Channing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChanningHan/personnal-cli/issues"
+  },
+  "homepage": "https://github.com/ChanningHan/personnal-cli#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "execa": "^5.1.1"
+  }
+}
